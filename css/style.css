@@ -1,0 +1,528 @@
+@font-face {
+    font-family: "Lavonia";
+    src: url(../fonts/EDLavonia-Regular.ttf);
+}
+
+@font-face {
+    font-family: "ITC Benguiat";
+    src: url(../fonts/ITC-Benguiat-Condensed-Medium.otf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Regular.ttf);
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* home */
+
+.achtergrond1 {
+    background-image: url(../images/backgroundpagina1.png);
+    background-size: cover;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.homebutton {
+    margin-top: 20px;
+    width: 70.2px;
+    height: 44.2px;
+}
+
+.ecologiebutton {
+    margin-top: 11px;
+    width: 50px;
+    height: 50px;
+}
+
+.cafebutton {
+    margin-top: 11px;
+    width: 50px;
+    height: 50px;
+}
+
+.tipsbutton {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    
+}
+
+.intro {
+    width: 100%;
+    height: 165px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.intro img {
+    width: 104px;
+    height: 144px;
+    padding-top: 13px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: left;
+}
+
+.introtekst {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.introtekst h1 {
+    font-size: 190%;
+    font-family: "Lavonia", sans-serif;
+    color: #51661f;
+}
+
+.introtekst p {
+    font-size: 90%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.watisdeceuvel {
+    margin-top: 18px;
+}
+
+.watisdeceuvel h2 {
+    margin-left: 5px;
+    font-family: "ITC Benguiat", sans-serif;
+    font-size: 100%;
+}
+
+.watisdeceuvel p {
+    margin-right: 240px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 53%;
+    text-align: left;
+}
+
+.broedplaats p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 55%;
+    margin-left: 259px;
+    display: flex;
+    float: left;
+    position: absolute;
+    top: 236px;
+}
+
+.watiser {
+    font-family: "Montserrat", sans-serif;
+    font-size: 70%;
+    margin-right: 159px;
+    margin-left: 5px;
+    display: flex;
+    float: right;
+    position: absolute;
+    margin-top: 78px;
+}
+
+.intresse {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.intresse h2 {
+    font-family: "ITC Benguiat", sans-serif;
+    font-size: 100%;
+    display: flex;
+    text-align: center;
+    padding-left: 37px;
+    color: #e6ecd6;
+}
+
+.intresse p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 55%;
+    display: flex;
+    text-align: center;
+    color: #e6ecd6;
+}
+
+/* ecologie */
+
+.achtergrond2 {
+    background-image: url(../images/backgroundpagina2.png);
+    background-size: cover;
+    width: 100%;
+    height: 2668px;
+}
+
+.intro2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.intro2 h1 {
+    margin-top: 40px;
+    font-family: "Lavonia", "sans-serif";
+    font-size: 250%;
+    color: #51661f;
+    display: flex;
+    position: absolute;
+    margin-right: 10px;
+    margin-left: 160px;
+}
+
+.intro2 img {
+    width: 180px;
+    height: 150px;
+    display: flex;
+    float: left;
+    position: relative;
+    margin-top: 40px;
+}
+
+section p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 67%;
+}
+
+.ecotekst1 {
+    margin: 180px 10px 10px 10px;
+}
+
+.ecotekst2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ecotekst3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 110px;
+}
+
+.Fytormeditatie {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 195px;
+}
+
+.Fytormeditatie h2 {
+    font-family: "ITC Benguiat", sans-serif;
+    font-size: 130%;
+    text-align: center;
+    color: #e6ecd6;
+    margin-bottom: 10px;
+}
+
+.Fytormeditatie p {
+    margin-right: 10px;
+    font-size: 59%;
+    text-align: center;
+    color: #e6ecd6;
+}
+
+.struvietreactor {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 440px;
+}
+
+.struvietreactor h2 {
+    font-family: "ITC Benguiat", sans-serif;
+    font-size: 140%;
+    text-align: center;
+    color: #e6ecd6;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}   
+
+.struvietreactor p {
+    font-size: 61%;
+    text-align: center;
+    color: #e6ecd6;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.zonnepanelen {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 740px;
+    margin-left: 160px;
+}
+
+.zonnepanelen h2 {
+    font-family: "ITC Benguiat", sans-serif;
+    font-size: 140%;
+    text-align: center;
+    color: #e6ecd6;
+    margin-bottom: 10px;
+}
+
+.zonnepanelen p {
+    font-size: 61%;
+    text-align: center;
+    color: #e6ecd6;
+    margin-right: 10px;
+}
+
+.helofyntenfilters {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 10px;
+}
+
+.helofyntenfilters h2 {
+    font-family: "ITC Benguiat", sans-serif;
+    font-size: 140%;
+    text-align: center;
+    color: #e6ecd6;
+    margin-bottom: 10px;
+}
+
+.helofyntenfilters p {
+    font-size: 63%;
+    text-align: center;
+    color: #e6ecd6;
+    margin-right: 10px;
+}
+
+.composttoiletten {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 1260px;
+    margin-left: 190px;
+}
+
+.composttoiletten h2 {
+    font-family: "ITC Benguiat", sans-serif;
+    font-size: 140%;
+    text-align: center;
+    color: #e6ecd6;
+    margin-bottom: 10px;
+}
+
+.composttoiletten p {
+    font-size: 63%;
+    text-align: center;
+    color: #e6ecd6;
+    margin-right: 10px;
+}
+
+.upcycling {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 1560px;
+    margin-right: 130px;
+    margin-left: 10px;
+}
+
+.upcycling h2 {
+    font-family: "ITC Benguiat", sans-serif;
+    font-size: 140%;
+    text-align: center;
+    color: #e6ecd6;
+    margin-bottom: 10px;
+}
+
+.upcycling p {
+    font-size: 61%;
+    text-align: center;
+    color: #e6ecd6;
+    margin-right: 10px;
+}
+
+.meerweten h2 {
+    font-family: "ITC Benguiat", sans-serif;
+    font-size: 100%;
+    text-align: center;
+    color: #e6ecd6;
+    display: flex;
+    position: absolute;
+    margin-top: 1960px;
+    margin-right: 250px;
+    margin-left: 10px;
+}
+
+button {
+    background-color: #ffffff00;
+    color: #e6ecd6;
+    border-color: #ffffff00;
+    font-family: "ITC Benguiat", sans-serif;
+    font-size: 130%;
+    padding: 1em;
+    margin-top: 1940px;
+    margin-left: 210px;
+}
+
+/* cafe de ceuvel */
+
+.achtergrond3 {
+    background-image: url(../images/backgroundpagina3.png);
+    background-size: 375px 1624px;
+    height: 1585px;
+}
+
+.intro3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.intro3 h1 {
+    margin-top: 30px;
+    font-family: "Lavonia", "sans-serif";
+    font-size: 270%;
+    text-align: center;
+    color: #51661f;
+    display: flex;
+    position: absolute;
+    margin-right: 60px;
+    margin-left: 160px;
+}
+
+.intro3 img {
+    width: 136px;
+    height: 155px;
+    display: flex;
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.cafetekst1 {
+    margin: 270px 40px 20px 40px;
+    font-size: 120%;
+}
+
+.cafetekst2 {
+    margin: 20px 40px 20px 40px;
+    font-size: 115%;
+}
+
+.cafetekst3 {
+    margin: 10px 40px 30px 40px;
+    font-size: 115%;
+}
+
+.sociaal1 h2 {
+    font-family: "ITC Benguiat", sans-serif;
+    font-size: 180%;
+    text-align: center;
+    color: #51661f;
+    margin-top: 60px;
+    margin-right: 90px;
+    margin-bottom: 10px;
+}
+
+.sociaal1 p {
+    font-size: 80%;
+    margin-left: 10px;
+    margin-right: 90px;
+}
+
+.sociaal2 p {
+    font-size: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* tips */
+
+.achtergrond4 {
+    background-image: url(../images/backgroundpagina4.png);
+    background-size: 375px 1480px;
+}
+
+.tips {
+    display: flex;
+    flex-direction: row;
+}
+
+.tips img {
+    width: 138px;
+    height: 204px;
+    display: flex;
+    float: left;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.tipspagina h1 {
+    font-family: "Lavonia", "sans-serif";
+    font-size: 250%;
+    color: #51661f;
+    display: flex;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 155px;
+}
+
+.tipspagina p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 90%;
+    text-align: center;
+    color: #51661f;
+    display: flex;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 150px;
+    margin-right:  10px;
+}
+
+.tiph2 {
+    font-family: "ITC Benguiat", sans-serif;
+    font-size: 170%;
+    text-align: center;
+    color: #51661f;
+    margin-top: 420px;
+    margin-bottom: 10px;
+}
+
+.tiplijst li {
+    list-style-type: circle;
+    margin: 0px 30px 0px 70px 
+}
+
+.tiplijst p {
+    font-size: 80%;
+    margin-bottom: 20px;
+}
